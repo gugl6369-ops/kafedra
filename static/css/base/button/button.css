@@ -1,0 +1,6 @@
+.button{
+    border-radius: 50px;
+    font-family: NunitoSans;
+    font-weight: bold;
+    cursor: pointer;
+}

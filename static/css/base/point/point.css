@@ -1,0 +1,8 @@
+@import url(--active/--active.css);
+
+.point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(56, 176, 193, .4);
+}

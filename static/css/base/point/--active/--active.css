@@ -1,0 +1,5 @@
+.point.point--active{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(56, 176, 193, 1);
+}

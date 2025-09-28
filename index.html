@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Miner</title>
+    <link href="./static/css/style.css" rel="stylesheet" type="text/css">
+    <script defer src="static/css/blocks/accordion/accordion.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header_block">
+            <address class="header_address section">
+                <div class="header_left">
+                    <div class="header_contact">
+                        <img class="header_contact-icon" src="static/pic/header/mail-icon.svg" alt="Почта">
+                        <a class="header_text" href="email:mein@main.com">mein@m.com</a>
+                    </div>
+                    <div class="header_contact">
+                        <img class="header_contact-icon" src="static/pic/header/tel-icon.svg" alt="Телефон">
+                        <a class="header_text" href="tel:+7999999-99-99">+7 (999) 999 99-99</a>
+                    </div>
+                </div>
+                <div class="header_right">
+                    <a class="header_social-icon" ><img src="static/pic/social/telegram-icon.svg" alt="Телеграм"/></a>
+                    <a class="header_social-icon" ><img src="static/pic/social/whatsapp-icon.svg" alt="Вотсап"/></a>
+                </div>
+            </address>
+        </div>
+        <nav class="navigation">
+            <div class="navigation_block section">
+                <p class="logo navigation_logo">MEIN MINER</p>
+                <div class="navigation_block-nav">
+                    <div class="navigation_text-next">
+                        <a class="navigation_text" href="#">Каталог товаров
+                        <img class="navigation_arrow" src="static/pic/navigation/arrow.svg" alt="Cтрелка"/>
+                        </a>
+                    </div>
+                    <a class="navigation_text" href="#">Цены</a>
+                    <a class="navigation_text" href="#">Калькулятор</a>
+                    <a class="navigation_text" href="#">Доставка</a>
+                    <a class="navigation_text" href="#">Отзывы</a>
+                </div>
+                <button class="button navigation_button">Заказать звонок</button>
+                <div class="navigation_icons">
+                    <div class="navigation_icon"><img class="icon" src="static/pic/navigation/search.svg" alt="Поиск"/></div>
+                    <div class="navigation_icon"><img class="icon" src="static/pic/navigation/fovourites.svg" alt="Избранное"/></div>
+                    <div class="navigation_icon" id="basket-button"><img class="icon" src="static/pic/navigation/basket.svg" alt="Корзина"/></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="company section">
+            <div class="company_top">
+                <div class="company_text-block">
+                    <h1 class="company_h1">О компании</h1>
+                    <p class="p company_p">С 2017 года Main-miner 
+                        поставляет технику для майнинга на российский 
+                        рынок оптом. За пять лет мы смогли укрепить свои
+                        позиции на рынке оборудования, вырастили 
+                        персонал, прекрасно разбирающийся в каждом 
+                        типе асиков и комплектующих.<br><br>
+                        Если вы хотите купить 
+                        асики оптом, то с нами можете быть уверены 
+                        как в качестве техники, так и в надёжности 
+                        сотрудничества. Лучше всего о нас говорит репутация!
+                    </p>
+                </div>
+                <div class="company_block-img">
+                    <img class="company_img" src="static/pic/company/company_img.svg" alt="компьютеры"/>
+                </div>
+            </div>
+            <div class="company_specifications">
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/notepad.svg" alt="блокнот"/>
+                    </div>
+                    <p class="p company_point-text">Работаем без выходных - 7 дней в неделю</p>
+                </div>
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/cooperation.svg" alt="сообщество"/>
+                    </div>
+                    <p class="p company_point-text">Прямое сотрудничество с поставщиками</p>
+                </div>
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/plane.svg" alt="самолет"/>
+                    </div>
+                    <p class="p company_point-text">Быстрая авиадоставка от 14 дней</p>
+                </div>
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/part.svg" alt="часть"/>
+                    </div>
+                    <p class="p company_point-text">Предоплата от предзаказа от 30%</p>
+                </div>
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/contract.svg" alt="договор"/>
+                    </div>
+                    <p class="p company_point-text">Официальный договор, полная защита средств</p>
+                </div>
+                <div class="company_point">
+                    <div class="company_point-div">
+                        <img class="company_point-img" src="static/pic/company/camera.svg" alt="камера"/>
+                    </div>
+                    <p class="p company_point-text">Видеопроверка для удаленных клиентов</p>
+                </div>
+            </div>
+        </section>  
+        <section class="banners section">
+            <div class="banners_left">
+                <div class="banners_left-text">
+                    <h2 class="banners_h2">оборудование для майнинга оптом</h2>
+                    <p class="banners_p">с гарантией 12 месяцев</p>
+                    <button class="button banners_button">Перейти в каталог</button>
+                </div>
+                <img class="banners_img-left" src="static/pic/banners/pc.svg" alt="оборудование">
+            </div>
+            <div class="banners_right">
+                <div class="banners_right-text">
+                    <h3 class="banners_h3">Выгодное предложение </h3>
+                    <div class="banners_right-context">
+                        <p class="banners_percent">-20%</p>
+                        <p class="banners_p">на все товары Antminer</p>
+                    </div>
+                </div>
+                <div class="banners_botton">
+                    <img class="banners_img-right" src="static/pic/banners/monet.svg" alt="">
+                    <a class="banners_link" href="#">В каталог <img class="" src="static/pic/banners/arrow.svg" alt=""> </img> </a>
+                </div>
+            </div>
+        </section>     
+        <section class="form-block section">
+                <h4 class="form-block_h4">не нашли то, что искали?<br>свяжитесь с нами, мы вам поможем!</h4>
+                <p class="form-block_p">Заполните форму и мы свяжемся с Вами в ближайшее время</p>
+                <form class="form" id="form">
+                    <div class="form_areal">
+                        <div class="form_input">
+                            <label>
+                                <input class="button form_input-text" type="text" id="name" name="name" placeholder="Ваше имя" required >
+                            </label>
+                        </div>
+                        <div class="form_input">
+                            <label>
+                                <input class="button form_input-text" type="tel" id="tel" name="tel" placeholder="Ваш телефон" required>
+                            </label>
+                        </div>
+                        <button class="button form_button" type="submit">Отправить</button>
+                    </div>
+                    <div class="form_checkbox-block">
+                        <input class="form_checkbox" type="checkbox" id="checkbox" required>
+                        <label class="form_checkbox-text" for="checkbox">Согласен на обработку <a href="#" class="form_checkbox-a">персональных данных</a></label>
+                    </div>
+                </form>
+        </section>
+        <section class="accordion section">
+            <h5 class="accordion_h5">часто задаваемые вопросы</h5>
+            <div class="accordion_list">
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <div class="accordion_heading">
+                            <p class="accordion_main-p">01</p>
+                            <p class="accordion_p">Сколько стоит разработка сайта?</p>
+                        </div>
+                        <svg class="accordion_arrow accordion_arrow--rotate" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 7L15 12L10 17" stroke="#1F2023" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="accordion_close accordion_close--hidden ">
+                        <div class="accordion_line"></div>
+                        <div class="accordion_content">
+                            <p class="accordion_content-title">Стоимость разработки сайта зависит от его сложности, функционала
+                            и требований. Лендинг может стоить от 10 000 рублей, корпоративный 
+                            сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис
+                            — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций,
+                            используемой CMS или индивидуальной разработки. Точную стоимость можно
+                            определить после обсуждения деталей проекта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <div class="accordion_heading">
+                            <p class="accordion_main-p">02</p>
+                            <p class="accordion_p">Сколько стоит разработка сайта?</p>
+                        </div>
+                        <svg class="accordion_arrow accordion_arrow--rotate" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 7L15 12L10 17" stroke="#1F2023" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="accordion_close accordion_close--hidden ">
+                        <div class="accordion_line"></div>
+                        <div class="accordion_content">
+                            <p class="accordion_content-title">Стоимость разработки сайта зависит от его сложности, функционала
+                            и требований. Лендинг может стоить от 10 000 рублей, корпоративный 
+                            сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис
+                            — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций,
+                            используемой CMS или индивидуальной разработки. Точную стоимость можно
+                            определить после обсуждения деталей проекта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <div class="accordion_heading">
+                            <p class="accordion_main-p">03</p>
+                            <p class="accordion_p">Сколько стоит разработка сайта?</p>
+                        </div>
+                        <svg class="accordion_arrow accordion_arrow--rotate" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 7L15 12L10 17" stroke="#1F2023" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="accordion_close accordion_close--hidden ">
+                        <div class="accordion_line"></div>
+                        <div class="accordion_content">
+                            <p class="accordion_content-title">Стоимость разработки сайта зависит от его сложности, функционала
+                            и требований. Лендинг может стоить от 10 000 рублей, корпоративный 
+                            сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис
+                            — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций,
+                            используемой CMS или индивидуальной разработки. Точную стоимость можно
+                            определить после обсуждения деталей проекта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <div class="accordion_heading">
+                            <p class="accordion_main-p">04</p>
+                            <p class="accordion_p">Сколько стоит разработка сайта?</p>
+                        </div>
+                        <svg class="accordion_arrow accordion_arrow--rotate" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 7L15 12L10 17" stroke="#1F2023" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="accordion_close accordion_close--hidden ">
+                        <div class="accordion_line"></div>
+                        <div class="accordion_content">
+                            <p class="accordion_content-title">Стоимость разработки сайта зависит от его сложности, функционала
+                            и требований. Лендинг может стоить от 10 000 рублей, корпоративный 
+                            сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис
+                            — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций,
+                            используемой CMS или индивидуальной разработки. Точную стоимость можно
+                            определить после обсуждения деталей проекта.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <div class="accordion_heading">
+                            <p class="accordion_main-p">05</p>
+                            <p class="accordion_p">Сколько стоит разработка сайта?</p>
+                        </div>
+                        <svg class="accordion_arrow accordion_arrow--rotate" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 7L15 12L10 17" stroke="#1F2023" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="accordion_close accordion_close--hidden ">
+                        <div class="accordion_line"></div>
+                        <div class="accordion_content">
+                            <p class="accordion_content-title">Стоимость разработки сайта зависит от его сложности, функционала
+                            и требований. Лендинг может стоить от 10 000 рублей, корпоративный 
+                            сайт — от 50 000, интернет-магазин — от 100 000, а сложный веб-сервис
+                            — от 300 000 рублей. Цена варьируется в зависимости от дизайна, интеграций,
+                            используемой CMS или индивидуальной разработки. Точную стоимость можно
+                            определить после обсуждения деталей проекта.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product-grid section">
+            <div class="product-grid_block">           
+                <h6 class="product-grid_h6">хиты продаж</h6>
+                <div class="product-grid_arrow-right"><img class="product-grid_arrow-img" src="static/pic/card/arrow_Left.png" alt="стрелка право"/></div>
+                <div class="product-grid_arrow-left"><img class="product-grid_arrow-img" src="static/pic/card/arrow_Left.png" alt="стрелка лево"/></div>
+                <div class="product-grid_list" id="product-grid_list"></div>
+                <div class="product-grid_point-list" id="points"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <nav class="section footer_blocks">
+            <div class="footer_logo-block">
+                <p class="logo footer_logo">mein miner</p>
+                <p class="footer_logo-text">© Mein Miner, 2025</p>
+            </div>
+            <div class="footer_text-block">
+                <p class="footer_main-p">покупателям</p>
+                <div class="footer_p-block">
+                    <a class="footer_p" href="#">О компании</a>
+                    <a class="footer_p" href="#">Цены</a>
+                    <a class="footer_p" href="#">Калькулятор</a>
+                    <a class="footer_p" href="#">Доставка</a>
+                    <a class="footer_p" href="#">Отзывы</a>
+                    <a class="footer_p" href="#">Контакты</a>
+                </div>
+            </div>
+            <div class="footer_text-block">
+                <p class="footer_main-p">каталог товаров</p>
+                <div class="footer_p-block">
+                    <a class="footer_p" href="#">Asic miners</a>
+                    <a class="footer_p" href="#">GPU фермы</a>
+                    <a class="footer_p" href="#">Видеокарты</a>
+                    <a class="footer_p" href="#">Аксессуары</a>
+                    <a class="footer_p" href="#">Компьютерные комплектующие</a>
+                    <a class="footer_p" href="#">Комплектующие для майнинга</a>
+                </div>
+            </div>
+            <div class="footer_button-title">
+                <button class="button footer_button">Заказать звонок</button>
+                <div class="footer_politic">
+                    <a class="footer_politic-text" href="#" >Публичная оферта</a>
+                    <a class="footer_politic-text" href="#">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+
+
+
+
+
+<!-- КОРЗИНА -->  
+    <section class="basket-window basket-window--closed" id="basket-window">
+        <div class="basket-window_back"></div>
+        <div class="basket-window_block">
+            <div class="basket-window_top-container">
+                <div class="basket-window_header">
+                    <p class="basket-window_title">Корзина (<span id="basket-quantity">0</span>)</p>
+                    <img class="basket-window_close" id="close-window" src="static/pic/basket-window/x.svg" alt="крестик" />
+                </div>
+                <div class="basket-window_list"></div>
+            </div>
+                
+                <button class="button basket-window_button">Оформить заказ</button>
+        </div>
+    </section>
+
+<!-- ШАБЛОН КАРТОЧЕК ТОВАРА ДЛЯ КОРЗИНЫ -->  
+    <template id="template-product-card-basket">
+        <div class="card-basket"> 
+            <img class="card-basket_img">
+            <div class="card-basket_content">
+                <p class="card-basket_name"></p>
+                <p class="card-basket_price"></p>
+                <div class="card-basket_buttons">
+                    <div class="card-basket_controler">
+                        <p class="card-basket_product-quanity"></p>
+                        <div class="card-basket_arrow-up"><img src="static/pic/basket-window/Vector.svg" alt="" ></div>
+                        <div class="card-basket_arrow-doun"><img src="static/pic/basket-window/doun.svg" alt="" ></div>
+                    </div>
+                    <button class="button card_basket_button">Удалить</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+
+<!-- ШАБЛОН КАРТОЧЕК ТОВАРА  -->
+    <template id="template-product-card" >
+        <div class="card">
+            <div class="card_header">
+                <div class="card_feature"><p class="card_feature-p"></p></div>
+                <button class="card_div-fovourites"><img class="card_icon-fovourites" src="static/pic/navigation/fovourites.svg" alt="Избранное"></button>
+            </div>
+            <img class="card_img">
+            <div class="card_content">
+                <p class="card_p"></p>
+            </div>
+            <div class="card_price">
+                <p class="card_price-p"></p>
+                <p class="card_sale"></p>
+                <button class="card_div-basket"><img class="card_icon-basket" src="./static/pic/navigation/basket.svg" alt="Корзина"></button>
+            </div>
+            <button  class="button card_button">Купить в 1 клик</button>
+        </div>
+    </template>
+    <script type="module" src="static/css/blocks/form/form.js"></script>
+    <script type="module" src="static/css/blocks/basket-window/basket-window.js"></script>
+    <script type="module" src="static/css/blocks/product-grid/product-grid.js"></script>
+</body>
+</html>
