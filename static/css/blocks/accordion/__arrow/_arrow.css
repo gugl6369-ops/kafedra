@@ -1,0 +1,5 @@
+@import url(--rotated/--rotated.css);
+
+.accordion_arrow{
+    transition: transform 0.3s ease;
+}

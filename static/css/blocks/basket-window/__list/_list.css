@@ -1,0 +1,7 @@
+.basket-window_list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}

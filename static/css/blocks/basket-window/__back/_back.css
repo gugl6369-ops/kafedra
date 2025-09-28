@@ -1,0 +1,28 @@
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.basket-window_back{
+    animation: fadeIn 1 forwards 0.3s;
+    background: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    inset: 0;
+}
+
+.basket-window--closed .basket-window_back{
+    animation: fadeOut 1 forwards 0.3s;
+}

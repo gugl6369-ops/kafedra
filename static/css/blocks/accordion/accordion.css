@@ -1,0 +1,19 @@
+@import url(__arrow/_arrow.css);
+@import url(__content-p/_content-title.css);
+@import url(__content/_content.css);
+@import url(__h5/_h5.css);
+@import url(__header/_header.css);
+@import url(__item/_item.css);
+@import url(__line/_line.css);
+@import url(__list/_list.css);
+@import url(__main-p/_main-p.css);
+@import url(__close/_close.css);
+@import url(__heading/_heading.css);
+@import url(__p/_p.css);
+
+.accordion{
+    display: flex;
+    padding: 80px 0;
+    flex-direction: column;
+    align-items: center;
+}

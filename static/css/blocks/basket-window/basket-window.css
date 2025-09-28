@@ -1,0 +1,15 @@
+@import url(__back/_back.css);
+@import url(__block/_block.css);
+@import url(__button/_button.css);
+@import url(__close/_close.css);
+@import url(__header/_header.css);
+@import url(__list/_list.css);
+@import url(__title/_title.css);
+@import url(--closed/--closed.css);
+
+.basket-window{
+    position: fixed;
+    inset: 0;
+    transition: right 0.3s ease-in-out;
+    z-index: 2;
+}

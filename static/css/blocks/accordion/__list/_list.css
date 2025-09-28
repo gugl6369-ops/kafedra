@@ -1,0 +1,7 @@
+.accordion_list{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(100%);
+    padding-top: 40px;
+    gap: 24px;
+}

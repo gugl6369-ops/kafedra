@@ -1,0 +1,20 @@
+
+
+.basket-window_block{
+    width: 30%;
+    height: 100%;
+    padding: 32px; 
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(0%);
+    transition: 0.3s;
+}
+
+.basket-window--closed .basket-window_block{
+    transform: translateX(100%);
+}

@@ -1,0 +1,13 @@
+.banners_left{
+    height: 100%;
+    background-image: url(../../../../pic/banners/leftdecore.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 45px 80px 57px;
+    display: flex;
+    gap: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    justify-content: space-between;
+}

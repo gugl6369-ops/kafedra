@@ -1,0 +1,15 @@
+.banners_right{
+    height: 100%;
+    background-image:url(../../../../pic/banners/rightdecore.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 30px 30px 40px;
+    box-shadow: 0px 4px 20px rgba(0, 7, 94, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+}

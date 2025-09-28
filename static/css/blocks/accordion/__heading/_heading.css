@@ -1,0 +1,13 @@
+.accordion_heading{
+    display: flex;
+    gap: 16px;
+}
+
+.accordion_heading:hover .accordion_main-p{
+    color: rgba(31, 34, 126, 0.59);
+}
+.accordion_heading:hover .accordion_p{
+    color: rgba(31, 34, 126, 0.59);
+}
+
+

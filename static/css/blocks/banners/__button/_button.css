@@ -1,0 +1,23 @@
+.banners_button{
+    width: 200px;
+    height: 50px;
+    color: rgba(24, 21, 75, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+
+.banners_button:hover{
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.4);
+    transition: 0.3s;
+}
+
+.banners_button:active{
+    background-image: rgba(24, 21, 75, 0.15);
+    box-shadow: none;
+}
+
+.banners_button:disabled{
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 1);
+}

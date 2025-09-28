@@ -1,0 +1,22 @@
+@import url(__button/_button.css);
+@import url(__h2/_h2.css);
+@import url(__h3/_h3.css);
+@import url(__left-text/_left-text.css);
+@import url(__left/_left.css);
+@import url(__p/_p.css);
+@import url(__percent/_percent.css);
+@import url(__right-text/_right-text.css);
+@import url(__right/_right.css);
+@import url(__link/_link.css);
+@import url(__img-left/_img-left.css);
+@import url(__right-context/_right-context.css);
+@import url(__botton/_botton.css);
+@import url(__img-right/_img-right.css);
+
+
+.banners{
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(66% - 10px) calc(34% - 10px);
+    gap: 20px;
+}

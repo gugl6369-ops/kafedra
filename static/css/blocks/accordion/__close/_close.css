@@ -1,0 +1,14 @@
+@import url(--hidden/--hidden.css);
+
+.accordion_close{
+    display: flex;
+    max-width: 100000px;
+    flex-direction: column;
+    gap: 16px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.accordion_close:not(.accordion_close--hidden) {
+    padding-top: 16px;
+}
