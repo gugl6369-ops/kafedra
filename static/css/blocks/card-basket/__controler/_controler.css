@@ -1,0 +1,5 @@
+.card-basket_controler{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

@@ -1,0 +1,13 @@
+.company_img{
+    width: 460px;
+    height: 250px;
+    background-image: radial-gradient(
+    at 300px  150px,
+    rgba(32, 26, 108, 1) 30%,
+    rgba(22, 14, 90, 1) 64%,
+    rgba(17, 7, 79, 1) 80%,
+    rgba(15, 5, 76, 1)100%) ;
+    filter: blur(20);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 7, 94, 0.1);
+}

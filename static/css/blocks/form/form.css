@@ -1,0 +1,14 @@
+@import url(__areal/_areal.css);
+@import url(__button/_button.css);
+@import url(__input-text/_input-text.css);
+@import url(__checkbox-text/_checkbox-text.css);
+@import url(__checkbox/_checkbox.css);
+@import url(__input/_input.css);
+@import url(__checkbox-block/_checkbox-block.css);
+@import url(__checkbox-a/_checkbox-a.css);
+
+.form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}

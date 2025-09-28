@@ -1,0 +1,7 @@
+.product-grid_point-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,5 @@
+.company_top{
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}

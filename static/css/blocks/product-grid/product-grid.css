@@ -1,0 +1,13 @@
+@import url(__block/_block.css);
+@import url(__h6/_h6.css);
+@import url(__list/_list.css);
+@import url(__arrow-left/_arrow-left.css);
+@import url(__arrow-right/_arrow-right.css);
+@import url(__point-list/_point-list.css);
+
+.product-grid{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 80px;
+}

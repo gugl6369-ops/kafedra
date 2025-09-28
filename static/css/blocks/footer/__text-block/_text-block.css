@@ -1,0 +1,7 @@
+.footer_text-block{
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+    gap: 20px;
+    align-items: start;
+}

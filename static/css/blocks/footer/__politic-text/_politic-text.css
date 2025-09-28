@@ -1,0 +1,10 @@
+.footer_politic-text{
+    color: rgba(184, 184, 184, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-family: NunitoSans;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}

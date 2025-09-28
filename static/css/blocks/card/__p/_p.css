@@ -1,0 +1,10 @@
+.card_p{
+    font-family: NunitoSans;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(48, 50, 57, 1);   
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

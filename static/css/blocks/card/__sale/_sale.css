@@ -1,0 +1,7 @@
+.card_sale{
+    text-decoration: line-through;
+    color: rgba(155, 155, 155, 1);
+    font-size: 10px;
+    font-family: NunitoSans;
+    font-weight: 600;
+}

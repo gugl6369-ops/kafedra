@@ -1,0 +1,13 @@
+@import url(./--active/--active.css);
+
+.card_div-basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background-color: rgba(240, 245, 251, 1);
+    border: none;
+    cursor: pointer;
+}

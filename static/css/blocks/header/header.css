@@ -1,0 +1,17 @@
+@import url(__address/_address.css);
+@import url(__left/_left.css);
+@import url(__right/_right.css);
+@import url(__social-icon/_social-icon.css);
+@import url(__text/_text.css);
+@import url(__block/_block.css);
+@import url(__social/_social.css);
+@import url(__contact-icon/_social-icon.css);
+@import url(__contact/_contact.css);
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.navigation_icon{
+    position: relative;
+    background-color: rgba(240, 245, 251, 1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+#basket-button::before {
+    content: var(--content, "0");
+    width: 18px;
+    width: 18px;
+    position: absolute;
+    border-radius: 50%;
+    top: -6px;
+    right: -6px;
+    background-color: rgba(24, 21, 75, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: NunitoSans;
+  }

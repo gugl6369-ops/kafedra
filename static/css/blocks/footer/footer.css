@@ -1,0 +1,20 @@
+@import url(__button/_button.css);
+@import url(__button-title/_button.css);
+@import url(__logo-block/_logo-block.css);
+@import url(__logo-text/_logo-text.css);
+@import url(__main-p/_main-p.css);
+@import url(__p-block/_p-block.css);
+@import url(__p/_p.css);
+@import url(__text-block/_text-block.css);
+@import url(__blocks/_blocks.css);
+@import url(__logo/_logo.css);
+@import url(__politic-text/_politic-text.css);
+
+
+.footer{
+    width: 100%;
+    background-color: rgba(24, 21, 75, 1);
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 60px;
+}

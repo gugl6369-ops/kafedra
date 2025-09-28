@@ -1,0 +1,10 @@
+.card-basket_arrow-up{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    background-color: rgba(240, 245, 251, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

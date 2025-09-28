@@ -1,0 +1,9 @@
+.card_basket_button{
+    padding: 5px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(25deg, #8b0d0d 0%, #ff6565 100%);
+    border: none;
+}

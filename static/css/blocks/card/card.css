@@ -1,0 +1,26 @@
+@import url(__button/_button.css);
+@import url(__content/_content.css);
+@import url(__div-basket/_div-basket.css);
+@import url(__div-fovourites/_div-fovourites.css);
+@import url(__feature/_feature.css);
+@import url(__header/_header.css);
+@import url(__img/_img.css);
+@import url(__price/_price.css);
+@import url(__p/_p.css);
+@import url(__price-p/_price-p.css);
+@import url(__icon-fovourites/_icon-fovourites.css);
+@import url(__icon-basket/_icon-basket.css);
+@import url(__feature-p/_feature-p.css);
+@import url(__sale/_sale.css);
+@import url(__price-p/_price-p.css);
+
+.card{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 15px 15px 30px;
+    align-items: center;
+    box-shadow: 0 4px 20px 0 rgba(0, 7, 94, 0.1);
+}

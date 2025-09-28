@@ -1,0 +1,21 @@
+@import url(__arrow-doun/_arrow-doun.css);
+@import url(__arrow-up/_arrow-up.css);
+@import url(__button/_button.css);
+@import url(__content/_content.css);
+@import url(__controler/_controler.css);
+@import url(__img/_img.css);
+@import url(__name/_name.css);
+@import url(__price/_price.css);
+@import url(__product-quanity/_product-quanity.css);
+@import url(__quanity/_guanity.css);
+@import url(__buttons/_buttons.css);
+
+.card-basket{
+    width: 100%;
+    padding: 12px 18px;
+    gap: 10px;
+    box-shadow: 0 4px 20px rgba(0, 7, 94, 0.1);
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}

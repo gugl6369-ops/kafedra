@@ -1,0 +1,18 @@
+@import url(__arrow/_arrow.css);
+@import url(__text/_text.css);
+@import url(__block-nav/_block-nav.css);
+@import url(__icon/_icon.css);
+@import url(__icons/_icons.css);
+@import url(__text-next/_text-next.css);
+@import url(__block/_block.css);
+@import url(__button/_button.css);
+@import url(__logo/_logo.css);
+
+
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 30px rgba(0, 7, 94, 0.1);
+}

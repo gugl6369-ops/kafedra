@@ -1,0 +1,27 @@
+.product-grid_arrow-right{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 35%;
+    border-radius: 50px;
+    background-color: rgba(31, 31, 125, 1);
+    right: -100px;
+    rotate: 180deg;
+    cursor: pointer;
+}
+.product-grid_arrow-right:hover{
+    box-shadow: 0 4px 20px rgba(26, 11, 115, 0.4);
+}
+
+.product-grid_arrow-right:active{
+    background-image: 
+    linear-gradient(rgba(24, 21, 75, 0.6), rgba(24, 21, 75, 0.6)),
+    linear-gradient(45deg, rgba(13, 116, 139, 1)5%, rgba(26, 11, 115, 1) 70%);
+}
+
+.product-grid_arrow-right:disabled{
+    opacity: 0.5;
+}

@@ -1,0 +1,14 @@
+@import url(header/header.css);
+@import url(navigation/navigation.css);
+@import url(main/main.css);
+@import url(company/company.css);
+@import url(banners/banners.css);
+@import url(../fonts/fonts.css);
+@import url(form/form.css);
+@import url(form-block/form-block.css);
+@import url(footer/footer.css);
+@import url(accordion/accordion.css);
+@import url(product-grid/product-grid.css);
+@import url(card/card.css);
+@import url(basket-window/basket-window.css);
+@import url(card-basket/card-basket.css);

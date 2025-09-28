@@ -1,0 +1,9 @@
+.card_feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 22px;
+    background-color: rgba(240, 245, 251, 1);
+    border-radius: 4px;
+}

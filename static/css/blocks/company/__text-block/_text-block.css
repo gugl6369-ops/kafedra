@@ -1,0 +1,5 @@
+.company_text-block{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

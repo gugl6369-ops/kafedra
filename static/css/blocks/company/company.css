@@ -1,0 +1,20 @@
+@import url(__block-p/_block-p.css);
+@import url(__h1/_h1.css);
+@import url(__img/_img.css);
+@import url(__p/_p.css);
+@import url(__text-block/_text-block.css);
+@import url(__block-img/_block-img.css);
+@import url(__top/_top.css);
+@import url(__point-div/_point-div.css);
+@import url(__point-img/_point-img.css);
+@import url(__point-text/_point-text.css);
+@import url(__point/_point.css);
+@import url(__specifications/_specification.css);
+
+.company{
+    display: flex;
+    padding: 40px 0;
+    gap: 75px;
+    align-items: center;
+    flex-direction: column;
+}
